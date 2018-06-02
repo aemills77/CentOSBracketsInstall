@@ -40,7 +40,7 @@ ICONFILE="Brackets.desktop"
 
 # installs yum copr plugin and enables external repository
 sudo yum -y install yum-plugin-copr
-sudo yum copr enable jgillich/brackets
+sudo yum -y copr enable mosquito/brackets
 
 # updates yum with all packages
 sudo yum -y update

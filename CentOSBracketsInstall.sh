@@ -39,6 +39,7 @@ function createicon()
 }
 
 # variables
+
 ICONFILE="Brackets.desktop"
 
 # main CentOSBracketsInstall.sh

@@ -15,7 +15,7 @@ function createicon()
 local FILE=$1
 
 # creates Brackets icon desktop file
-echo "#!/usr/bin/env xdg-open" >> $FILE
+echo "#!/usr/bin/env xdg-open" > $FILE
 echo -e >> $FILE
 echo "[Desktop Entry]" >> $FILE
 echo "Version=1.0" >> $FILE
